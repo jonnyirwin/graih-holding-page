@@ -1,0 +1,37 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: #dbe8e6;
+	color: #000000;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 1.2em;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 0.1em;
+}
+
+h2 {
+	font-family: "Kanit", Arial, Tahoma, sans-serif;
+	font-size: 1.4em;
+	margin-bottom: 0.2em;
+	color: #195257;
+}
+
+.map-responsive{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	max-width: 600px;
+}
+.map-responsive iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
